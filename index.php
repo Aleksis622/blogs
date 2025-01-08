@@ -50,3 +50,4 @@ foreach($posts as $post) {
     echo "<li>" . $post["content"] . "</li>";
 }
 echo "</ul>";
+require "views/index.view.php";
