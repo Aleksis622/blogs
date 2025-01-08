@@ -1,7 +1,16 @@
-<h1> Blogs</h1>
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <h1> Blogs</h1>
 
  <form>
- <input name='search_query' />
+ <input name='search_query' value = '<?= $_GET["search_query"] ??""?>' />
 
  <buttton>Meklet</button>
 
@@ -14,6 +23,9 @@
 
 <ul>
 <?php foreach($posts as $post) { ?>
-     <li><?php echo $post["content"]  ?></li>
+     <li> <?=  $post["content"]  ?></li>
 } <?php } ?>
 </ul>
+</body>
+</html>
+
