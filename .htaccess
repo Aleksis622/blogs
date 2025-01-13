@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteeRule ^ index.php [QSA,L]

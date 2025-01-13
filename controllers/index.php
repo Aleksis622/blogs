@@ -22,7 +22,7 @@ echo "<form>";
 
 echo "<input name='search_query' />";
 
-echo "<buttton>Meklet</button>";
+echo "<buttton> Meklēt </button>";
 
 echo "</form>";
 
@@ -37,4 +37,3 @@ foreach($posts as $post) {
 echo "</ul>";
 
 echo "</ul>";
-require "views/index.view.php";
