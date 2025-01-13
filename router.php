@@ -9,6 +9,11 @@ if($url == "/"){
 
 require "controllers/story.php";
 
+}else{
+   http_response_code (404);
+
+   echo "<p> Lapa nav atrasta :( </p>";
+   die();
 }
 
 ?>
