@@ -1,7 +1,5 @@
 <?php
 
-$config = require("config.php");
-$db = new Database($config["database"]);
 $select = "SELECT * FROM posts";
 $params = [];
 
@@ -37,3 +35,6 @@ foreach($posts as $post) {
     echo "<li>" . $post["content"] . "</li>";
 }
 echo "</ul>";
+
+echo "</ul>";
+require "views/index.view.php";
