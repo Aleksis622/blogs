@@ -37,3 +37,4 @@ foreach($posts as $post) {
 echo "</ul>";
 
 echo "</ul>";
+require "views/posts/index.view.php";

@@ -1,5 +1,5 @@
-<?php require "components/header.php"; ?>
-<?php require "components/navbar.php"; ?>
+<?php require "views/components/header.php"; ?>
+<?php require "views/components/navbar.php"; ?>
 <body>
     <?php $pageTitle="Blogs";?>
 
@@ -20,4 +20,4 @@
      <li> <?=  $post["content"]  ?></li>
 } <?php } ?>
 </ul>
-<?php require "components/footer.php";?>
+<?php require "views/components/footer.php";?>

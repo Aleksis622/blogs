@@ -1,7 +1,7 @@
 <?php 
 require "functions.php";
 require "Database.php";
-require "components/navbar.php";
+require "views/components/navbar.php";
 
 
 $config = require("config.php");
