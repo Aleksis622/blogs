@@ -17,7 +17,7 @@
 
 <ul>
 <?php foreach($posts as $post) { ?>
-     <li> <?=  $post["content"]  ?></li>
+     <li><a href ="show?id=" <?=  $post["content"]  ?></li>
 } <?php } ?>
 </ul>
 <?php require "views/components/footer.php";?>
