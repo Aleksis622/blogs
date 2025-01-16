@@ -3,7 +3,7 @@
 
 $uri=parse_url($_SERVER["REQUEST_URI"])["path"];
 
-$routes = require("create/routes.php");
+$routes = require("routes.php");
 
 if(array_key_exists($uri,$routes)){
     require $routes[$uri];
