@@ -1,6 +1,6 @@
 <?php 
 
-require "views/create.view.php";
+require "views/posts/create.view.php";
 
 
 ?>

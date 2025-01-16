@@ -10,7 +10,6 @@ $search_query = "%" . $_GET["search_query"] . "%";
 $select .=" WHERE content LIKE: nosaukums"; 
 
 $params = ["nosaukums"=>$search_query] ;
-
 }
 $posts = $db->query($select, $params)->fetchAll();
 
