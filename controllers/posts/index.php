@@ -3,7 +3,7 @@
 $select = "SELECT * FROM posts";
 $params = [];
 
-if(isset($_GET["search_query"]) && $_GET["search_query"] !=""){
+if(isset($_GET["search_query"]) && $_POST["search_query"] !=""){
 
 $search_query = "%" . $_GET["search_query"] . "%"; 
 
