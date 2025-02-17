@@ -2,7 +2,7 @@
 
 <body>
     <h1>Blogs</h1>
-
+    <?htmlspecialchars($post["content"])?>
  <form>
  <input name='search_query' value = '<?= $_GET["search_query"] ??""?>'name='content' >
 

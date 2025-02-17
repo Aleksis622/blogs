@@ -4,6 +4,8 @@
 <body>
 <h1>Izveido bloga ierakstu</h1>
 
+<script>alert("Your site has been hacked")</script>
+
 <form method="POST">
  <label><input name = "content" /></label>
 
@@ -11,9 +13,6 @@
 
 </form>
 
-<?php if(count($posts) == 0  ){?>
-    <p> "Not found"</p>
-}<?php } ?>
 
 
 
