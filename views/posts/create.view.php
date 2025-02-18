@@ -8,7 +8,11 @@
 
 <form method="POST">
  <label><input name = "content" /></label>
-
+ 
+ <?php if(isset($errors["content"])) { ?>
+       <p><?= $errors["content"] ?></p>
+     <?php } ?>
+<?= $_POST['content'] ?? ''  ?>
  <button> Izveidot </button>
 
 </form>
